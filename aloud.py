@@ -9,7 +9,7 @@ def text_to_speech_gpt(gpt_text):
     audio=speech_output.save("gpt_output.mp3")
     return audio
 
-def text_to_speech_gpt(wiki_text):
+def text_to_speech_wiki(wiki_text):
     languge="en"
     tex=wiki_text
 
