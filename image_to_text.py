@@ -12,7 +12,7 @@ def capture():
 
     while True:
         res, img = cam.read()
-        cv2.imshow("image_to_scan", img)
+        capturing_box=cv2.imshow("image_to_scan", img)
 
         if cv2.waitKey(1)==27:
             break
@@ -27,7 +27,7 @@ def capture():
     cv2.destroyAllWindows()
 
     
-    #img1=Image.open("opencv_frame_0.png")
+    
     img1=cv2.imread("opencv_frame_0.png")
     gray = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
     blur = cv2.GaussianBlur(gray, (3,3), 0)
