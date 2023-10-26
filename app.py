@@ -3,10 +3,6 @@ import lang
 import wiki
 import aloud
 import image_to_text
-# from PIL import Image
-# import pytesseract as tess
-# import cv2
-# tess.pytesseract.tesseract_cmd=r'C:\Users\vetri\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
 
 st.set_page_config(page_title="Vetri's Website", page_icon=':books:',layout="wide")
 
